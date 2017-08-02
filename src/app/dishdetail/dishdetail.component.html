@@ -8,14 +8,14 @@
 
     <div fxFlex="40">
     	<md-card *ngIf="dish">
-    		<md-card-header>
+    		<md-card-header> 
     			<md-card-title>
     				<h3>{{ dish.name | uppercase}}</h3><hr/>
     			</md-card-title>
     			</md-card-header>
     			<img md-card-image src="{{ dish.image }}" alt="{{dish.image}}">
     			<md-card-content>
-    				<p>{{dish.description}}</p>
+    	 			<p>{{dish.description}}</p>
     			</md-card-content>
     			<md-card-actions>
     				<button md-button>LIKE</button>
